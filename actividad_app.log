@@ -1,0 +1,10 @@
+2026-02-01 18:12:29,003 - [Modulo logging.py] - DEBUG - Este es un mensaje de depuración (solo para desarrolladores).
+2026-02-01 18:12:29,004 - [Modulo logging.py] - INFO - El sistema ha iniciado correctamente.
+2026-02-01 18:12:29,004 - [Modulo logging.py] - WARNING - Advertencia: El uso de disco es alto.
+2026-02-01 18:12:29,004 - [Modulo logging.py] - ERROR - Error: No se pudo conectar a la base de datos local.
+2026-02-01 18:12:29,004 - [Modulo logging.py] - CRITICAL - FALLO DEL SISTEMA: El servidor se ha detenido inesperadamente.
+2026-02-01 18:16:23,189 - [Modulo logging.py] - DEBUG - Este es un mensaje de depuración (solo para desarrolladores).
+2026-02-01 18:16:23,192 - [Modulo logging.py] - INFO - El sistema ha iniciado correctamente.
+2026-02-01 18:16:23,193 - [Modulo logging.py] - WARNING - Advertencia: El uso de disco es alto.
+2026-02-01 18:16:23,193 - [Modulo logging.py] - ERROR - Error: No se pudo conectar a la base de datos local.
+2026-02-01 18:16:23,193 - [Modulo logging.py] - CRITICAL - FALLO DEL SISTEMA: El servidor se ha detenido inesperadamente.
