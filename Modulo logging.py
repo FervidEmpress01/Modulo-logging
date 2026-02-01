@@ -72,9 +72,9 @@ def setup_logger():
     console_handler.setFormatter(ColoredFormatter())
 
     # --- C. Handler de Telegram (Solo errores críticos) ---
-    # NOTA: Reemplaza con tu TOKEN y CHAT_ID reales
-    TOKEN = "8555660996:AAHInajqT1wIfmdNKd-St8XuRS5CezaKJ10"
-    CHAT_ID = "1732140622"
+    
+    TOKEN = ""
+    CHAT_ID = ""
     
     telegram_handler = TelegramHandler(TOKEN, CHAT_ID)
     telegram_handler.setLevel(logging.CRITICAL) # Solo molestar en Telegram si es CRITICO
@@ -99,4 +99,5 @@ if __name__ == "__main__":
     log.error("Error: No se pudo conectar a la base de datos local.")
     
     # Este mensaje se enviará a la consola (rojo negrita), al archivo y a Telegram
+
     log.critical("FALLO DEL SISTEMA: El servidor se ha detenido inesperadamente.")
